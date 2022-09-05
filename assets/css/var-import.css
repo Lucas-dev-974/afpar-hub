@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import './utils.css';
+@import './responsive.css';
+
+:root{
+    /* Navbar css variables */
+    --nav-height: 70px;
+
+    /* Color */
+    --dark-light: #2c2c2c;
+    --dark:       #181818;
+    --gray: #919191;
+    --sim-red:    #ce0233;
+    --sim-red-light:    #cc4262;
+    --light:      #f7f6f2;
+
+    --af-green: #2fa46c;
+}

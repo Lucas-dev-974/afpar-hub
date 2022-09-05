@@ -1,0 +1,39 @@
+@import './main.css';
+@import './navbar.css';
+
+.vertical-student-box{
+    width: 280px;
+    /* background-color: red; */
+}
+
+.right-student-box{
+    width: 100%;
+}
+.student-box{
+    min-width: 100%;
+    margin: 5px 0;
+    /* background-color: green; */
+}
+
+
+.vertical-student-box > .profile-img-container{
+    width: 100%;
+}.profile-img-container > .user-pp{
+    /* width: 150px; */
+    max-width: 200px;
+    height: auto;  
+}
+
+.vertical-student-box > .user-details{
+    padding: 0 25px;
+}
+
+.galerie{
+    width: 100%;
+}.galerie >.gallerie-box{
+    display: flex;
+    flex-wrap: wrap;
+}.galerie > .gallerie-box > img{
+    width: 150px;
+    height: auto;
+}

@@ -1,0 +1,86 @@
+/* Si 999px et moin */
+@media (max-width: 999px) { 
+    .site-presentation{
+        flex-wrap: wrap;
+    }
+    .site-presentation > .logo-group > .logo-group-flex{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+    /* Student page  */
+    .right-student-box > .student-box{
+        min-width: 90% !important;
+        padding: 10px !important;
+    }
+}
+
+/* Si 1000px et plus */
+@media (min-width: 1000px) { 
+    
+    .container{
+        width: 70% !important;
+    }
+
+
+    /* Home page */
+    .site-presentation > .presentation{
+        width: 60% !important;
+    }.site-presentation > .logo-group > .logo-group-flex{
+        justify-content: flex-end ;
+    }.site-presentation > .logo-group > img{
+        position: absolute !important;
+    }.site-presentation > .logo-group > .logo-group-flex > .logo-afpar{
+        transform: translateX(35px);
+    }.site-presentation > .logo-group > .logo-group-flex > .logo-microsoft{
+        display: none;
+    }
+    
+    .site-presentation > .logo-group{
+        width: 20% !important;
+    }
+
+    .site-presentation > .logo-right{
+        display: block !important;
+        justify-content: center;
+        align-self: center;
+        display: flex;
+        width: 20%;
+    }.site-presentation > .logo-right > img{
+        width: 150px;
+        height: auto;
+    }
+
+    /* Student page */
+    .vertical-student-box{
+        min-width: 250px;
+        width: 20% !important;
+    }
+    .right-student-box{
+        width: 70% !important;
+    }
+    
+}
+
+/* Si écran entre 994px et 1440px (replacement des logos car bug dans cet tranche */
+@media screen and (max-width: 1440px) and (min-width: 994px){ 
+    .site-presentation > .logo-group > .logo-afpar{
+        transform: translateY(30px) !important;
+    }.site-presentation > .logo-group > .logo-simplon{
+        transform: translateY(-30px) !important;
+    }
+}
+
+/* Si 1400px et plus  */
+@media (min-width: 1300px) { 
+    .site-presentation > .logo-group > .logo-group-flex img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .site-presentation > .logo-right > img{
+        width: 180px;
+        height: auto;
+    }
+}

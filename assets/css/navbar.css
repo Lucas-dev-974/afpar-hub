@@ -1,0 +1,14 @@
+/* Navbar */
+#navbar{
+    background-color: var(--sim-red);
+    height: var(--nav-height);
+    letter-spacing: 4px;
+    font-weight: '500';
+    font-size: 1.3em;
+    width: 100vw;
+    color: var(--light);
+}
+
+.navbar-group-right > .title, .navbar-group-left > .title{
+    display: none;
+}

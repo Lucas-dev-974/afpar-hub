@@ -1,0 +1,31 @@
+@import './var-import.css';
+
+/* General */
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #e8dcd0;
+    font-family: 'Nunito';
+}
+
+.nunito{
+    font-family: 'Nunito';
+}
+.custom-p{
+    font-family: 'Nunito';
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+/* Main content */
+#main-content{
+    height: calc(100vh - var(--nav-height));
+    background-color: transparent;
+}
+
+#top-section{
+    width: 100%;
+    height: fit-content;
+}
+
+

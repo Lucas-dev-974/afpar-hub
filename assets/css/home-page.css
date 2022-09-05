@@ -1,0 +1,80 @@
+@import './main.css';
+@import './navbar.css';
+
+/* Site presentation */
+.site-presentation{
+    box-shadow: 6px 5px 15px rgb(39, 38, 38);
+    background-color: #f7f6f2;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: 25px;
+}
+
+.site-presentation > .presentation{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+/* Logos */
+.site-presentation > .logo-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}.site-presentation > .logo-group > .logo-group-flex{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+}.site-presentation > .logo-group > .logo-group-flex img{
+    width: 80px;
+    height: 80px;
+    margin: 3px 0;
+}.site-presentation > .logo-group > .logo-group-flex > .logo-microsoft{
+    width: 150px !important;
+    height: auto !important;
+}.site-presentation > .logo-right{
+    display: none;
+}
+
+
+/* Students Container */
+#students-container{
+    width: 100%;
+    height: 60%;
+}.students{
+    box-shadow: 6px 5px 15px rgb(39, 38, 38);
+    background-color: #f7f6f2;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.students-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}.student-box{
+    cursor: pointer;
+    background-color: var(--af-green);
+    border-radius: 7px;
+    /* padding: 2px; */
+    width:  150px;
+}
+
+
+.student-box > .student-img-container{
+    width: 150px;
+    /* object-fit: cover; */
+}
+.student-box > .student-img-container > .student-profile-image{
+    width: 150px;
+    height: auto;
+    border-radius: 6px 6px 0 0;
+    object-fit: cover;
+}
