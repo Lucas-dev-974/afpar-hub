@@ -6,11 +6,14 @@ Pour integrer une page étudiant au site il faux créer un nouveaux dossier dans
 Une fois le dossier étudiant créer placer votre code html/css dans ce dossier avec index.html à la racine du dossier étudiant
 example : assets/views/etudiant-01/index.html
 
+# Pointer votre page 
+A la racine du projet dans le index.html trouver le block commenter par "Student-box" copier le et coller le en dessous du block copier
+Remplir le nom/prénom et dans la balise a rajouter le lien (chemin) vers votre fichier
 
 # Pour être compatible avec l'architecture du site
 Dans le dossier étudiant créer précedament retirer tout fichier puis dans un terminal à la racine du projet (pas du dossier étudiant):
     - cp ./assets/views/template-etudiant.html ./assets/views/etudiant-01/index.html (ici on copie le template d'une page étudiant compatible avec la structure du site)
-    
+
 ## Integration de votre css
 Dans le dossier de l'étudiant créer un dossier CSS et placer votre CSS 
 Sur la page ajouter le link vers votre CSS à la apres les link CSS de base
